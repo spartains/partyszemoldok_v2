@@ -1,0 +1,306 @@
+@font-face
+{
+	font-family: "Courier New";
+	src: url("font/Courier New.ttf") format("truetype");
+}
+
+@font-face
+{
+	font-family: "Family&Friends";
+	src: url("font/Family&Friends.ttf") format("truetype");
+}
+
+@font-face
+{
+	font-family: "Georgia";
+	src: url("font/Georgia.ttf") format("truetype");
+}
+
+@font-face
+{
+	font-family: "Shoes";
+	src: url("font/Shoes.ttf") format("truetype");
+}
+
+@font-face
+{
+	font-family: "Beltane";
+	src: url("font/Beltane.ttf") format("truetype");
+}
+
+@font-face
+{
+	font-family: "DroidSerif";
+	src: url("font/DroidSerif.ttf") format("truetype");
+}
+
+body
+{
+	background-color: dimgray;
+	margin: auto;
+}
+
+header
+{
+	background-color: silver;
+}
+
+header h1
+{
+	text-align: center;
+	margin: auto;
+}
+
+header h1 a
+{
+	color: cyan;
+	font-family: "Georgia";
+	font-weight: bold;
+	font-style: italic;
+	text-transform: lowercase;
+	text-shadow: teal 3px 3px 5px, black 0 0 20px;
+	transition: 1s all;
+}
+
+header h1 a:hover
+{
+	color: teal;
+	text-decoration-line: none;
+	text-shadow: navy 3px 3px 5px, black 0 0 20px;
+	transition: 1s all;
+}
+
+header span
+{
+	background-color: gray;
+	text-align: center;
+	font-size: 30px;
+	font-family: "Shoes";
+	border-radius: 25px;
+	box-shadow: navy 0 0 25px;
+	margin: 2.5%;
+}
+
+nav a
+{
+	font-size: 16px;
+	font-family: "Family&Friends";
+}
+
+section, article
+{
+	color: white;
+	background-color: darkmagenta;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "Courier New";
+	letter-spacing: 15px;
+}
+
+section marquee
+{
+	font-size: 20px;
+	margin: 0.5% 0 -0.5%;
+}
+
+main
+{
+	background-color: silver;
+}
+
+.error
+{
+	color: darkred;
+	background-color: rgb(200, 125, 125);
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Courier New";
+	letter-spacing: 2px;
+	border-radius: 25px;
+	margin: 5% 0;
+}
+
+.success
+{
+	color: darkgreen;
+	background-color: rgb(125, 200, 125);
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Courier New";
+	letter-spacing: 2px;
+	border-radius: 25px;
+	margin: 5% 0;
+}
+
+main .home, main .login, main .logup, main .upload
+{
+	text-align: center;
+	font-size: 16px;
+	margin: 2.5% auto;
+}
+
+main .home .sites
+{
+	text-align: center;
+	margin: 2.5% auto;
+}
+
+main .home .postes
+{
+	background-color: lightsteelblue;
+	border-radius: 25px;
+	box-shadow: lightslategray 0 0 50px;
+	padding: 2%;
+}
+
+main .home .postes h2
+{
+	color: navy;
+	text-align: center;
+	font-size: 40px;
+	font-family: "Beltane";
+	text-shadow: blue 2px 2px 5px;
+	margin-bottom: 5%;
+}
+
+main .home .postes .uploadrow
+{
+	color: teal;
+	font-weight: bold;
+	font-family: "Courier New";
+}
+
+main .home .postes .uploadrow .name
+{
+	color: darkgreen;
+	font-weight: normal;
+	text-decoration: underline;
+}
+
+main .home .postes .uploadrow .update
+{
+	color: darkslategray;
+	font-weight: normal;
+}
+
+main .home .postes .modrow
+{
+	color: darkred;
+	font-weight: bold;
+	font-family: "Courier New";
+	margin-bottom: 2.5%;
+}
+
+main .home .postes .modrow .moddate
+{
+	color: red;
+	font-weight: normal;
+}
+
+main .home .postes .post
+{
+	text-align: justify;
+	font-family: "DroidSerif";
+}
+
+main .home hr
+{
+	border-color: teal;
+	border-width: 2px;
+	border-radius: 10px;
+	width: 50%;
+}
+
+main .login input, main .logup input, main .upload input
+{
+	text-align: center;
+	font-size: 16px;
+}
+
+main .upload textarea
+{
+	min-height: 150px;
+	max-height: 250px;
+}
+
+main .myprofile, main .contact
+{
+	margin: 2.5% auto;
+}
+
+main .myprofile
+{
+	border-radius: 25px;
+	padding: 2%;
+}
+
+main .myprofile input[type="checkbox"]
+{
+	transform: scale(2);
+}
+
+main .myprofile .profilehead
+{
+	margin-bottom: 5%;
+}
+
+main .myprofile .profilehead img
+{
+	border-radius: 100%;
+}
+
+main .myprofile .profilehead .userdata, main .myprofile .profilehead .userbutton
+{
+	margin: auto 0;
+}
+
+main .myprofile .profilehead .userdata h3
+{
+	color: navy;
+	text-shadow: blue 0 0 10px;
+}
+
+main .myprofile .profilehead .userdata .username
+{
+	color: gray;
+}
+
+main .myprofile .primarycolumn
+{
+	color: navy;
+	font-weight: bold;
+	text-decoration-line: underline;
+	margin: 1% 0;
+}
+
+main .myprofile .secondarycolumn
+{
+	color: blue;
+	text-align: justify;
+	text-indent: 5%;
+	margin: 1% 0;
+}
+
+main .contact table
+{
+	background-color: white;
+	text-align: center;
+	font-size: 16px;
+	margin: auto;
+}
+
+footer
+{
+	background-color: black;
+}
+
+footer span
+{
+	color: gray;
+	font-size: 14px;
+	font-family: "Courier New";
+	letter-spacing: 3px;
+	margin: auto;
+}

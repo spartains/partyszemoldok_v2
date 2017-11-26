@@ -1,0 +1,13 @@
+header h1 a
+	{
+		color: cyan;
+		transition: 1s all;
+		text-shadow: teal 2px 2px 25px, black 2px 2px 50px;
+	}
+	
+header h1 a:hover
+	{
+		color: navy;
+		text-decoration: none;
+		text-shadow: darkblue 2px 2px 25px, black 2px 2px 50px;
+	}
